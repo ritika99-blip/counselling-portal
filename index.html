@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counselling Portal</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:linear-gradient(135deg,#0b4ea2,#1565c0,#42a5f5);
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .card{
+            background:white;
+            width:400px;
+            padding:40px;
+            border-radius:15px;
+            box-shadow:0 15px 40px rgba(0,0,0,.25);
+        }
+
+        h1{
+            text-align:center;
+            color:#0b4ea2;
+            margin-bottom:10px;
+        }
+
+        p{
+            text-align:center;
+            color:gray;
+            margin-bottom:30px;
+        }
+
+        input{
+            width:100%;
+            padding:14px;
+            margin-bottom:15px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            font-size:15px;
+        }
+
+        button{
+            width:100%;
+            padding:14px;
+            background:#0b4ea2;
+            color:white;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+            font-size:16px;
+            transition:.3s;
+        }
+
+        button:hover{
+            background:#083d82;
+        }
+
+        .footer{
+            margin-top:20px;
+            text-align:center;
+            color:gray;
+            font-size:13px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="card">
+
+<h1>Counselling Portal</h1>
+
+<p>Practice Demo Portal</p>
+
+<input
+type="text"
+placeholder="Application Number">
+
+<input
+type="password"
+placeholder="Password">
+
+<button onclick="login()">
+Login
+</button>
+
+<div class="footer">
+Demo Website • Not Official
+</div>
+
+</div>
+
+<script>
+
+function login(){
+
+alert("Welcome Ritika! Dashboard coming next 🚀");
+
+}
+
+</script>
+
+</body>
+</html>
